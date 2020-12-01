@@ -16,7 +16,7 @@ const Navbar = () => {
     const classes = useStyles();
 
 	return (
-		<AppBar>
+		<AppBar style={{ position: 'sticky' }}>
 			<Toolbar>
 				<Link to="/" className={classes.title}>
 					<Typography variant="h4" >Aloha Social</Typography>
