@@ -12,7 +12,7 @@ const App = () => {
 				<BrowserRouter>
 					<NavBar />
 					<Switch>
-						<Route path="/" component={Dashboard} />
+						<Route exact path="/" component={Dashboard} />
 					</Switch>
 				</BrowserRouter>
 			</div>
