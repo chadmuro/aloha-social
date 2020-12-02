@@ -5,7 +5,7 @@ import ShakaList from '../shakas/ShakaList';
 
 const Dashboard = () => {
     return (
-        <Container>
+        <Container maxWidth="md">
             <Grid container>
                 <Grid item xs={12} sm={7}>
                     <ShakaList />

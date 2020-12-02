@@ -5,6 +5,9 @@ const ShakaList = () => {
     return (
 			<>
 				<ShakaSummary />
+				<ShakaSummary />
+				<ShakaSummary />
+				<ShakaSummary />
 			</>
 		);
 }
