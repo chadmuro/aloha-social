@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { ThemeProvider } from '@material-ui/core';
 import NavBar from './components/layout/Navbar';
 import Dashboard from './components/dashboard/Dashboard';
+import UserDetails from './components/user/UserDetails';
 import theme from './utils/Theme';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
 					<NavBar />
 					<Switch>
 						<Route exact path="/" component={Dashboard} />
+						<Route path="/user/:id" component={UserDetails} />
 					</Switch>
 				</BrowserRouter>
 			</div>
